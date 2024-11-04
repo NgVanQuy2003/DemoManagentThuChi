@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_gravity="center"
+    android:elevation="10dp"
+    card_view:cardBackgroundColor="#fff"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardUseCompatPadding="true">
+
+
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:text="Số tiền chi : "
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_tenKhoanChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten Khoan Chi"
+        android:paddingTop="8dp"
+        android:paddingLeft="105dp"
+        android:textColor="#fff"
+        android:paddingBottom="8dp"
+        android:background="#a5fea4a4"
+        android:textSize="17dp" />
+    <TextView
+        android:id="@+id/tv_SoTienChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="105dp"
+        android:text="text"
+        android:textSize="15dp" />
+
+
+    <ImageView
+        android:id="@+id/iv_DeleteKhoanChi"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/background_of_date"
+        android:layout_weight="1"
+        card_view:srcCompat="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/iv_editKhoanChi"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/background_of_date"
+        android:layout_weight="1"
+        card_view:srcCompat="@drawable/edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="95dp"
+        android:layout_height="wrap_content"
+        android:text="Ngày chi    : "
+        />
+
+    <TextView
+        android:id="@+id/tv_ngaychi"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="95dp"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="10/10/2018" />
+
+    <TextView
+        android:id="@+id/tv_LoaiChi"
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="105dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text="text" />
+    <TextView
+        android:id="@+id/tv_viewLoaiThu"
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="70dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Loại chi      : " />
+
+
+
+
+</android.support.v7.widget.CardView>
